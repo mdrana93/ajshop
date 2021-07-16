@@ -1,0 +1,39 @@
+
+@media(max-width: 576px) {
+  .home-section .col-md-6 .home-content{
+    margin-top: 30px;
+  }
+  .about-section .col-md-6 .section-title{
+    text-align: center;
+  }
+}
+
+@media(max-width: 767px) {
+  .header{
+    padding: 5px 0;
+  }
+  .header .navbar-nav{
+    background-color: #fff;
+  }
+  .header .navbar #collapsibleNavbar .nav-item .nav-link{
+    padding: 10px 15px 10px;
+  }
+  .header .navbar-light .navbar-toggler{
+    background-color: #fff;
+    padding: 0;
+    height: 38px;
+    width: 45px;
+    border: none;
+  }
+  .header .navbar-light .navbar-toggler:focus{
+    outline: none;
+  }
+  .home-section .col-md-6 .home-image{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contact-section .col-md-5 .contact-item{
+    margin-top: 30px;
+  }
+
+}
